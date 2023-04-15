@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cabaio"
+    tools:context=".menuhamburguesa">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="221dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="23dp"
+        android:text="@string/descriphamb2"
+        android:textColor="#0E0D0D"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textviewhamburguesa4"
+        app:layout_constraintTop_toBottomOf="@+id/buttonhamburguesa1" />
+
+    <TextView
+        android:id="@+id/textviewhamburguesa2"
+        android:layout_width="369dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/textviewhamburguesa2"
+        android:textColor="#121111"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewhamburguesa1" />
+
+    <Button
+        android:id="@+id/buttonhamburguesa1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="19dp"
+        android:backgroundTint="#F44336"
+        android:onClick="Actnormal"
+        android:text="@string/buttonhamburguesa1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/textviewhamburguesa2" />
+
+    <TextView
+        android:id="@+id/textviewhamburguesa4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="327dp"
+        android:text="@string/textviewhamburguesa4"
+        android:textColor="#121111"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <Button
+        android:id="@+id/buttonhamburguesa2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="169dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="#F44336"
+        android:onClick="Actdeluxe"
+        android:text="@string/buttonhamburguesa2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/buttonhamburguesa1" />
+
+    <TextView
+        android:id="@+id/textviewhamburguesa1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="114dp"
+        android:text="@string/textviewhamburguesa1"
+        android:textColor="#121111"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonhamburguesa3"
+        android:layout_width="183dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="114dp"
+        android:backgroundTint="#F44336"
+        android:onClick="Actmenuhamburguesafinalizar"
+        android:text="@string/buttonhamburguesa3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/textviewhamburguesa3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="319dp"
+        android:text="@string/textviewhamburguesa3"
+        android:textColor="#121111"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewhamburguesa2" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="209dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="54dp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonhamburguesa2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewhamburguesa4"
+        app:srcCompat="@drawable/deluxe" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="161dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="52dp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonhamburguesa1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewhamburguesa3"
+        app:srcCompat="@drawable/normal" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="220dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/descriphamb1"
+        android:textColor="#0E0D0D"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/buttonhamburguesa1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textviewhamburguesa3"
+        app:layout_constraintTop_toBottomOf="@+id/textviewhamburguesa2" />
+
+    <Spinner
+        android:id="@+id/spinnerhamburguesa1"
+        android:layout_width="63dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="159dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="21dp"
+        android:background="#F44336"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/buttonhamburguesa1"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Spinner
+        android:id="@+id/spinnerhamburguesa2"
+        android:layout_width="63dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="184dp"
+        android:background="#F44336"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/buttonhamburguesa2"
+        tools:ignore="SpeakableTextPresentCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

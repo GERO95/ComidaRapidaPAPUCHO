@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/cabaio"
+    android:layout_height="match_parent"
+    tools:context=".menubebidas">
+
+    <TextView
+        android:id="@+id/textviewbebidas3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="264dp"
+        android:text="@string/textviewbebidas3"
+        android:textColor="#121111"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewbebidas2" />
+
+    <TextView
+        android:id="@+id/textviewbebidas1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="105dp"
+        android:text="@string/textviewbebidas1"
+        android:textColor="#121111"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textviewbebidas4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="267dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/textviewbebidas4"
+        android:textColor="#121111"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <Button
+        android:id="@+id/buttonbebidas3"
+        android:layout_width="183dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="114dp"
+        android:backgroundTint="#FF5722"
+        android:onClick="Actmenubebidasfinalizar"
+        android:text="@string/buttonbebidas3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/buttonbebidas1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="37dp"
+        android:backgroundTint="#FF5722"
+        android:onClick="Actcoca"
+        android:text="@string/buttonbebidas1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewbebidas2" />
+
+    <Button
+        android:id="@+id/buttonbebidas2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="169dp"
+        android:layout_marginEnd="35dp"
+        android:backgroundTint="#FF5722"
+        android:onClick="Acthorchata"
+        android:text="@string/buttonbebidas2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonbebidas1" />
+
+    <TextView
+        android:id="@+id/textviewbebidas2"
+        android:layout_width="356dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="25dp"
+        android:text="@string/textviewbebidas2"
+        android:textColor="#121111"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewbebidas1" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="78dp"
+        android:layout_height="166dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/textviewbebidas4"
+        app:layout_constraintEnd_toStartOf="@+id/buttonbebidas1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewbebidas3"
+        app:srcCompat="@drawable/cocaco" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="92dp"
+        android:layout_height="169dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonbebidas3"
+        app:layout_constraintEnd_toStartOf="@+id/buttonbebidas2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewbebidas4"
+        app:srcCompat="@drawable/tata" />
+
+    <Spinner
+        android:id="@+id/spinnerbebida1"
+        android:layout_width="46dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="166dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="102dp"
+        android:background="#FF5722"
+        android:backgroundTint="#FF5722"
+        app:layout_constraintBottom_toTopOf="@+id/buttonbebidas2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/buttonbebidas1"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Spinner
+        android:id="@+id/spinnerbebida2"
+        android:layout_width="51dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="179dp"
+        android:background="#FF5722"
+        android:backgroundTint="#FF5722"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/buttonbebidas2"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
