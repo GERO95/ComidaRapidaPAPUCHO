@@ -132,7 +132,7 @@
         app:layout_constraintEnd_toStartOf="@+id/buttonhamburguesa2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textviewhamburguesa4"
-        app:srcCompat="@drawable/deluxe" />
+        app:srcCompat="@drawable/he2" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -144,7 +144,7 @@
         app:layout_constraintEnd_toStartOf="@+id/buttonhamburguesa1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textviewhamburguesa3"
-        app:srcCompat="@drawable/normal" />
+        app:srcCompat="@drawable/heuno" />
 
     <TextView
         android:id="@+id/textView"

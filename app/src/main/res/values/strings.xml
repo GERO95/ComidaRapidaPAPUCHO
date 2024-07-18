@@ -1,9 +1,9 @@
 <resources>
 
-    <string name="app_name">ComidaRapidaPAPUCHO</string>
+    <string name="app_name">SUEÑOS HELADOS</string>
 
     //strings para el menu de loguin, ejem la MainActivity
-    <string name="textviewloguin1">Bienvenido a Papuchos, Es Un Placer Contar con usted denuevo.</string>
+    <string name="textviewloguin1">Bienvenido a Sueños Helados, Es Un Placer Contar con usted denuevo.</string>
     <string name="textviewloguin2">USUARIO</string>
     <string name="textviewloguin3">CONTRASEÑA</string>
     <string name="edittextloguin1">Escribe Aqui tu Usuario</string>
@@ -14,10 +14,10 @@
     <string name="textviewmenu1">Bienvenido USER </string>
     <string name="textviewmenu2">Te damos la Bienvenida, elige el area donde compraras, click en "finalizar" al  terminar </string>
     <string name="textviewmenu3">BEBIDAS </string>
-    <string name="textviewmenu4">HAMBURGUESAS </string>
+    <string name="textviewmenu4">HELADOS </string>
     <string name="textviewmenu5">PIZZA </string>
     <string name="buttonmenu1">Click para Bebidas </string>
-    <string name="buttonmenu2">Click para Hamburguesas </string>
+    <string name="buttonmenu2">Click para Helados </string>
     <string name="buttonmenu3">Click para Pizza </string>
     <string name="buttonmenu4">Finalizar </string>
 
@@ -30,17 +30,17 @@
     <string name="buttonbebidas2">$25.00 horchata </string>
     <string name="buttonbebidas3">Click para finalizar </string>
 
-    //strings para el menu de MENU DE HAMBURGUESAS, ejem menuhamburguesa.java
+    //strings para el menu de MENU DE HAMBURGUESAS, ejem menuhamburguesa.java(ahora menu de helados)
 
-    <string name="textviewhamburguesa1">Bienvenido al menu de Hamburguesas. </string>
-    <string name="textviewhamburguesa2">Selecciona dando click en el boton para elegir la hamburguesa de su eleccion, luego de elegir sera redirigido al menu de inicio </string>
+    <string name="textviewhamburguesa1">Bienvenido al menu de Helados. </string>
+    <string name="textviewhamburguesa2">Selecciona dando click en el boton para elegir el helado de su eleccion, luego de elegir sera redirigido al menu de inicio </string>
     <string name="textviewhamburguesa3">Normal </string>
     <string name="textviewhamburguesa4">Deluxe </string>
     <string name="buttonhamburguesa1">$50.00 normal </string>
     <string name="buttonhamburguesa2">$80.00 deluxe </string>
     <string name="buttonhamburguesa3">Click para finalizar </string>
-    <string name="descriphamb1">pan brioche, queso , carne, cebolla, tomate, lechuga batavia. </string>
-    <string name="descriphamb2"> pan brioche, bacon, huevo, queso chédar, carne x2, cebolla roja en aros, tomate, lechuga batavia y pepinillos. </string>
+    <string name="descriphamb1">Helados de 3 capas conformado de 3 sabores a elegir con barquilla comestible de sabor vainilla </string>
+    <string name="descriphamb2"> Helados de hasta 4 a 5 capas dependiendo del sabor, ofrecemos nuestra barquilla especial deluxe que incluye relleno de chocolate fundido y topings de distintos sabores. </string>
 
     //strings para el menu de MENU DE PIZZA, ejem menupizza.java
 
