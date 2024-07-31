@@ -16,10 +16,17 @@
     <string name="textviewmenu3">BEBIDAS </string>
     <string name="textviewmenu4">HELADOS </string>
     <string name="textviewmenu5">PIZZA </string>
-    <string name="buttonmenu1">Click para Bebidas </string>
-    <string name="buttonmenu2">Click para Helados </string>
+    <string name="textviewmenu6">HELADO DE LITRO </string>
+    <string name="textviewmenu7">HELADO DE CONO </string>
+    <string name="textviewmenu8">PALETA DE FRUTAS </string>
+    <string name="textviewmenu9">HELADO EN VASO </string>
+    <string name="buttonmenu1">Click para Litro </string>
+    <string name="buttonmenu2">Click para Cono </string>
     <string name="buttonmenu3">Click para Pizza </string>
+    <string name="buttonmenu6">Click para paletas </string>
+    <string name="buttonmenu5">Click para vaso </string>
     <string name="buttonmenu4">Finalizar </string>
+    <string name="buttonmenu7">NUEVO USUARIO </string>
 
     //strings para el menu de MENU DE BEBIDAS, ejem menubebidas.java
     <string name="textviewbebidas1">Bienvenido al menu de bebidas. </string>

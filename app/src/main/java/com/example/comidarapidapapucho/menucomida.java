@@ -35,24 +35,27 @@ public class menucomida extends AppCompatActivity {
     //Metodo para el boton buttonloguin1
 
     public void ActFinalizar(View view){
-        Intent ActFinalizar = new Intent(this, menufinalizar.class);
+        Intent ActFinalizar = new Intent(this, VentaDetalleActivity.class);
         startActivity(ActFinalizar);
     }
 
-    public void ActBebidas(View view){
-        Intent ActBebidas = new Intent(this, menubebidas.class);
-        startActivity(ActBebidas);
+    public void Actlitro(View view){
+        Intent Actlitro = new Intent(this, Activitylitro.class);
+        startActivity(Actlitro);
     }
 
-    public void ActHamburguesa(View view){
-        Intent ActHamburguesa = new Intent(this, menuhamburguesa.class);
-        startActivity(ActHamburguesa);
+    public void Actcono(View view){
+        Intent Actcono = new Intent(this, Activitycono.class);
+        startActivity(Actcono);
     }
 
-    public void ActPizza(View view){
-        Intent ActPizza = new Intent(this, menupizza.class);
-        startActivity(ActPizza);
+    public void Actpaleta(View view){
+        Intent Actpaleta = new Intent(this, Activitypaleta.class);
+        startActivity(Actpaleta);
     }
-
+    public void Actvaso(View view){
+        Intent Actvaso = new Intent(this, Activityvaso.class);
+        startActivity(Actvaso);
+    }
 
 }

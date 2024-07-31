@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etNombreProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textStyle="italic"
+
+        android:textColorHint="@color/white"
+        android:hint="Nombre del producto a actualizar"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etNuevoPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:hint="Nuevo precio"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etNuevaCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:hint="Nueva cantidad"
+        android:inputType="number" />
+
+</LinearLayout>

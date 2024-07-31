@@ -47,12 +47,21 @@ public class MainActivity extends AppCompatActivity {
         Obj_editor.putString("usuario", ETedittextlogin1.getText().toString());
         Obj_editor.commit();
 
+
+
 if (ETedittextlogin1.getText().toString().equals("Luis Lopez") && contrasenia.getText().toString().equals("12345")){
         //metodo que cambia de un layer a otro
         Intent Entrar = new Intent(this, menucomida.class);
         startActivity(Entrar);}else{
     Toast.makeText(MainActivity.this, "Intenta con Luis Lopez y con 12345 ", Toast.LENGTH_LONG).show();
         }
+    }
+
+    public void EntrarUsuario(View view){
+
+        Intent EntrarNVO = new Intent(this, ActivityUsuarios.class);
+        startActivity(EntrarNVO);
+
     }
 
 }

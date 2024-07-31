@@ -19,7 +19,8 @@
         android:hint="@string/edittextloguin2"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:textColor="#E91E63"
+        android:password="true"
+        android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,11 +45,11 @@
 
     <TextView
         android:id="@+id/textviewlogin1"
-        android:layout_width="265dp"
+        android:layout_width="350dp"
         android:layout_height="107dp"
-        android:layout_marginStart="76dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="55dp"
-        android:layout_marginEnd="77dp"
+        android:layout_marginEnd="50dp"
         android:layout_marginBottom="88dp"
         android:text="@string/textviewloguin1"
         android:textColor="#FFFFFF"
@@ -110,4 +111,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edittextlogin2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="62dp"
+        android:backgroundTint="#F8F8F8"
+        android:onClick="EntrarUsuario"
+        android:text="@string/buttonmenu7"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:iconTint="#FFFFFF"
+        app:iconTintMode="add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonloguin1" />
 </androidx.constraintlayout.widget.ConstraintLayout>
